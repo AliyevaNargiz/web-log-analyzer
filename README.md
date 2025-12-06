@@ -1,10 +1,10 @@
 # WebLog Analyzer with Apache Spark
 
-A powerful web application that analyzes web server log files to help you understand your website traffic, find problems, and make data-driven decisions. It uses Apache Spark for fast processing of large log files.
+A powerful web application that analyzes web server log files to help understand your website traffic, find problems, and make data-driven decisions. It uses Apache Spark for fast processing of large log files.
 
 ## What is This Project?
 
-This is a **web log analyzer** - a tool that reads your web server's log files (like Apache or Nginx logs) and gives you useful insights about your website traffic.
+This is a **web log analyzer** - a tool that reads web server's log files (like Apache or Nginx logs) and gives useful insights about your website traffic.
 
 ### What Does It Do?
 
@@ -23,7 +23,7 @@ This tool reads all those lines and tells you:
 
 ### Why Use This?
 
-- **Understand your traffic** - See when and how people use your website
+- **Understand traffic** - See when and how people use your website
 - **Find problems** - Quickly spot errors and issues
 - **Make better decisions** - Use data to improve your site
 - **Handle big files** - Process millions of log entries quickly using Apache Spark
@@ -108,10 +108,9 @@ If any command says "not found", you need to install that software first.
 
 #### Step 1: Install Java (if needed)
 
-1. Go to [Adoptium](https://adoptium.net/)
-2. Download Java 11 or 17 for Windows
-3. Run the installer
-4. Verify: Open PowerShell and type `java -version`
+1. Download Java 11 or 17 for Windows
+2. Run the installer
+3. Verify: Open PowerShell and type `java -version`
 
 #### Step 2: Set Up the Backend (Python/Django)
 
@@ -552,10 +551,3 @@ To add a new analysis job:
 6. Add display in `components/results-panel.tsx`
 7. Add CSV export in `save_results_to_csv()` function
 
-## License
-
-MIT License
-
----
-
-**Need Help?** Check the troubleshooting section above or review the backend logs in your terminal for detailed error messages.
