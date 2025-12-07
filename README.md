@@ -389,6 +389,9 @@ web-log-analyzer/
 │   └── weblog_analyzer/   # Django settings
 └── public/                 # Static files
 ```
+## Spark Code Location
+The Spark analysis code can be found here:
+`backend/analyzer/spark_analyzer.py`
 
 ## Technology Stack
 
